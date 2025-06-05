@@ -1,0 +1,7 @@
+*
+<<<<<<< HEAD
+=======
+!private/
+>>>>>>> 0ab011e (Tugas 2 Laravel)
+!public/
+!.gitignore
