@@ -19,6 +19,7 @@ class BookSeeder extends Seeder
         'price' => 185000,
         'stock' => 15,
         'cover_photo' => 'pulang.jpg',
+        'genre_id' => 1,
         'author_id' => 1, // pastikan ID ini sesuai dengan data di tabel authors
     ]);
 
@@ -28,6 +29,7 @@ class BookSeeder extends Seeder
         'price' => 118000,
         'stock' => 5,
         'cover_photo' => 'sebuah_seni.jpg',
+        'genre_id' => 2,
         'author_id' => 2,
     ]);
 
@@ -37,6 +39,7 @@ class BookSeeder extends Seeder
         'price' => 43000,
         'stock' => 14,
         'cover_photo' => 'hujan_bulan_juni.jpg',
+        'genre_id' => 3,
         'author_id' => 3,
     ]);
 
@@ -46,6 +49,7 @@ class BookSeeder extends Seeder
         'price' => 95000,
         'stock' => 10,
         'cover_photo' => 'laut_bercerita.jpg',
+        'genre_id' => 4,
         'author_id' => 4,
     ]);
 
@@ -55,6 +59,7 @@ class BookSeeder extends Seeder
         'price' => 85000,
         'stock' => 20,
         'cover_photo' => 'negeri_5_menara.jpg',
+        'genre_id' => 5,
         'author_id' => 5,
     ]);
 }
